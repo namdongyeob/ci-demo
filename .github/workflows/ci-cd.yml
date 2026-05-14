@@ -14,8 +14,8 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    outputs:g
-      image_tag: ${{ steps.vars.outputs.short_sha }}
+    outputs:
+      image_tag: "${{ steps.vars.outputs.short_sha }}"
 
     steps:
       # Step 1: 코드 가져오기
